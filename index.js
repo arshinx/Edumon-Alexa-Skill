@@ -33,10 +33,10 @@ const handlers = {
             if (definition) {
                 this.emit(":tellWithCard", definition, term, definition);
             } else {
-                this.emit(":tell", "I'm sorry, I don't know the definition of " + slot + ". Please try again.");
+                this.emit(":tell", "I'm sorry, I don't know about " + slot + ". Please try again.");
             }
         } else {
-            this.emit(":ask", "You need to provide a term. " + responses["AMAZON.HelpIntent"].reprompt, responses["AMAZON.HelpIntent"].reprompt);
+            this.emit(":ask", "You need to provide a university name. " + responses["AMAZON.HelpIntent"].reprompt, responses["AMAZON.HelpIntent"].reprompt);
         }
 
     }
