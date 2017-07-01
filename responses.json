@@ -1,7 +1,7 @@
 {
     "LaunchRequest": 
     {
-        "ask":"Welcome to Edumon. What would you like to know?",
+        "ask":"Welcome to College Guide. What would you like to know?",
         "reprompt": "What would you like to know?"
     },
     "AMAZON.HelpIntent":
